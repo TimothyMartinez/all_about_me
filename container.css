@@ -1,0 +1,25 @@
+.container {
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+.container > div {
+  background-color: #80cbc4;
+  border: 1px solid #fff;
+  padding: 40px;
+  font-size: 30px;
+  text-align: center;
+}
+.item1 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+#wrapper {
+  max-width: 960px;
+
+  margin-left: auto; /* 1 */
+  margin-right: auto; /* 1 */
+
+  padding-right: 10px; /* 3 */
+  padding-left: 10px; /* 3 */
+}
