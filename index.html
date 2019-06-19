@@ -4,43 +4,50 @@
     <meta charset="utf-8">
     <meta name=viewport content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="container.css">
+    <!-- <link rel="stylesheet" href="container.css"> -->
+    <link rel="stylesheet" href="global.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="navbar.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <title>About Me</title>
   </head>
   <body class="container" id="wrapper">
     <div>
-      <nav>
-        <ul>
-          <li>
-            <a href="contact.html">Contact Me</a>
-            <a href="index.html">Home<a/>
-          </li>
-        </ul>
+      <nav class="nav">
+          <a href="contact.html" class="current_page">Contact Me</a> |
+          <a href="index.html">Home<a/> |
+          <a href="tell_me_more.html">Tell Me More
+          <a/>
       </nav>
     </div>
     <main>
-      <h1> Hello World</h1>
-      <h2>My name is Timothy Martinez</h2>
-      <img src="download.png" alt="tim_mart"/>
-      <p>
-        Currently studying at <a href="https://www.wyncode.co" target="blank">Wyncode</a>
+      <h1> Hello World!</h1>
+      <h2><i>My name is Timothy Martinez</i></h2>
+      <hr color="black"/>
+      <div>
+       <img src="download.png" alt="tim_mart" width="50%" class="profile_pic"/>
+     </div>
+      <p class="box">
+        Currently studying at
+        <a href="https://www.wyncode.co" target="blank">Wyncode
+        </a>
       </p>
       <div>
         <p> My favorite programing languages are</P>
-        <ul>
+        <ul id="language-list">
           <h3>
             Ruby
-            <img src="ruby.jpg" width="200px">
+            <img src="ruby.jpg" width="200px"/>
           </h3>
 
           <h3>
             JavaScript
-            <img src="js.jpg" width="200px">
+            <img src="js.jpg" width="200px"/>
           </h3>
 
           <h3>
             Python
-            <img src="python.jpg" width="200px">
+            <img src="python.jpg" width="200px"/>
           </h3>
 
 
