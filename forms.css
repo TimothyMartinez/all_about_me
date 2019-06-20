@@ -24,8 +24,9 @@ textarea {
   form {
     width: 100%
   }
+}
 
-button {
+button, input[type="reset"] {
   background-color: cornflowerblue;
   color: white;
   padding: 15px;
@@ -37,4 +38,25 @@ button {
 
 * {
   font-family: 'Roboto', sans-serif;
+}
+
+
+
+#wrapper {
+  max-width: 1200px;
+
+  margin-left: auto; /* 1 */
+  margin-right: auto; /* 1 */
+
+  padding-right: 10px; /* 3 */
+  padding-left: 10px; /* 3 */
+}
+
+main h1 {
+  padding-top: 5px;
+  text-align: center;
+}
+
+div {
+  text-align: center;
 }
