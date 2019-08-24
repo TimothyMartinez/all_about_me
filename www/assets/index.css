@@ -1,3 +1,6 @@
+.header {
+}
+
 .profile_pic {
   border-radius: 100%;
   width: 300px;
@@ -26,4 +29,9 @@
 
 #language-list li img {
   width: 100%;
+}
+
+.newblock {
+  display: flex;
+  flex-direction: column;
 }
