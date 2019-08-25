@@ -7,6 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node src/index.js",
     "build": "webpack",
+    "serve": "browser-sync start --server --files --port $PORT \"dist/css/*.css, dist/js/*.js, **/*.html, !node_modules/**/*.html\"",
     "heroku-postbuild": "echo Skip build on Heroku"
   },
   "repository": {
