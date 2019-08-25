@@ -1,4 +1,18 @@
 .header {
+  color: rgb(255,241,188);
+  letter-spacing: 6px;
+  margin-top: 5.1rem;
+}
+
+.profile-image {
+  background-image: url(profile-backer.JPG);
+  background-position: center center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 79.4vh;
+  display: flex;
+  justify-content: flex-end;
+  object-fit: cover;
 }
 
 .profile_pic {
@@ -7,6 +21,8 @@
   height: 300px;
   object-fit: cover;
   transform: scale(1.0);
+  transition: .5s;
+  margin: 3rem;
 }
 
 .profile_pic:hover {
@@ -34,4 +50,83 @@
 .newblock {
   display: flex;
   flex-direction: column;
+}
+
+.newblock button {
+  width: 1.5rem;
+  height: 1.5rem;
+  padding: 6px;
+  border-radius: 50%;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.show {
+  display: flex;
+  justify-content: center;
+  opacity: 100;
+}
+
+.nosho {
+  justify-content: center;
+  opacity: 0;
+  transition: all 1s ease-in-out;
+}
+
+#config-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background-color: rgb(68,110,92);
+  height: 59vh;
+  padding-top: 8%;
+  padding-bottom: 8%;
+}
+
+#site-one {
+  background-image: url(news.png);
+  background-position: center center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 59%;
+  object-fit: cover;
+  transition: all 1s ease-in-out;
+}
+
+#site-two {
+  background-image: url("tinyg.png");
+  background-position: center center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 59%;
+  object-fit: cover;
+  transition: all 1s ease-in-out;
+}
+
+#site-three {
+  background-image: url("githu.png");
+  background-position: center center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 59%;
+  object-fit: cover;
+  transition: all 1s ease-in-out;
+}
+
+#button-container {
+  margin-top: 7px;
+}
+
+.footer {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: black;
+  height: 4rem;
+  color: rgb(255,241,188);
 }
