@@ -1,7 +1,7 @@
 .header {
   color: rgb(255,241,188);
   letter-spacing: 6px;
-  margin-top: 5.1rem;
+  margin-top: 1%;
 }
 
 .profile-image {
@@ -23,7 +23,7 @@
   object-fit: cover;
   transform: scale(1.0);
   transition: .5s;
-  margin: 3rem;
+  margin: 10%;
 }
 
 .profile_pic:hover {
@@ -64,7 +64,8 @@
   border: black;
 }
 
-.newblock button:focus {
+.newblock button:focus,
+.newblock button:hover {
   background-color: rgb(96, 89, 67);
 }
 
@@ -128,10 +129,12 @@
 
 .footer {
   position: relative;
-  bottom: 0;
+  bottom: 0px;
   left: 0;
   right: 0;
   background-color: black;
-  height: 4rem;
-  color: rgb(255,241,188);
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  color: grey;
 }

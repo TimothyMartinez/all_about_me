@@ -3,13 +3,21 @@ input[type="text"], textarea {
   font-size: 1.2rem;
   padding: 6px;
   margin: 6px 0;
-  border: 2px solid light-grey;
+  border: 2px solid rgb(73,130,61);
 }
 
 form {
   width: 1000px;
   margin: auto;
+  position: relative;
+  height: 82.646vh;
+  bottom: 52px;
+}
 
+.sendjobs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 textarea {
@@ -47,4 +55,8 @@ main h1 {
 
 div {
   text-align: center;
+}
+
+.thanks {
+  position: relative;
 }
