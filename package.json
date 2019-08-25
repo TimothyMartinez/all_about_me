@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node src/index.js",
-    "build": "webpack" 
+    "build": "webpack",
+    "heroku-postbuild": "echo Skip build on Heroku"
   },
   "repository": {
     "type": "git",
@@ -17,5 +18,6 @@
   "bugs": {
     "url": "https://github.com/TimothyMartinez/all_about_me/issues"
   },
-  "homepage": "https://github.com/TimothyMartinez/all_about_me#readme"
+  "homepage": "https://github.com/TimothyMartinez/all_about_me#readme",
+  "heroku-run-build-script": true
 }
