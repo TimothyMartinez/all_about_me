@@ -1,7 +1,6 @@
 {
   "name": "tims-page",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -12,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/TimothyMartinez/my_page"
+    "url": "git+https://github.com/TimothyMartinez/my_page.git"
   },
   "author": "",
   "license": "ISC",
@@ -20,5 +19,8 @@
     "url": "https://github.com/TimothyMartinez/my_page/issues"
   },
   "homepage": "https://github.com/TimothyMartinez/my_page#readme",
-  "heroku-run-build-script": true
+  "heroku-run-build-script": true,
+  "dependencies": {},
+  "devDependencies": {},
+  "description": ""
 }
