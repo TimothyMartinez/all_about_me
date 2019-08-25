@@ -4,66 +4,42 @@
     <meta charset="utf-8">
     <meta name=viewport content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="forms.css">
-    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="./assets/body.css">
+    <link rel="stylesheet" href="./assets/container.css">
+    <link rel="stylesheet" href="./assets/index.css">
+    <link rel="stylesheet" href="./assets/navbar.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <title>Contact Me!</title>
   </head>
-  <body>
+  <body class="container wrapper">
     <nav class="nav">
-        <a href="contact.html" class="current_page">Contact Me</a>  |
-        <a href="index.html">Home</a>  |
-        <a href="tell_me_more.html">Tell Me More
-        </a>
+      <a href="index.html">Home</a> 
+      <a href="about-me.html">About Me</a> 
+      <a href="contact.html">Contact Me</a> 
     </nav>
-    <main id="wrapper">
-
+    <main>
       <h1>Use this form to contact me</h1>
-      <form
-        action="https://formspree.io/tmrcmartinez@gmail.com"
-        method="POST">
-
+      <form action="https://formspree.io/tmrcmartinez@gmail.com" method="POST">
         <div>
-          <label
-            for="your_name">
+          <label for="your_name">
             Your Name
           </label>
-
-          <input
-            id="your_name"
-            type="text"
-            name="your_name"
-            autocomplete="off">
+          <input id="your_name" type="text" name="your_name" autocomplete="off">
           </input>
-        </div>
-
+        </div> 
         <div>
-          <label
-            for="your_message">
+          <label for="your_message">
             Your Message
           </label>
-
-          <textarea
-            name="your_message"
-            id="your_message"
-            cols="100"
-            rows="10">
+          <textarea name="your_message" id="your_message" cols="100" rows="10">
           </textarea>
         </div>
-
-
-        <button
-          type="submit">
+        <button type="submit">
           Send
         </button>
-        <input
-          type="reset">
+        <input type="reset">
         </input>
-
       </form>
-
-
-
     </main>
   </body>
 </html>

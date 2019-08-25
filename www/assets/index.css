@@ -7,9 +7,10 @@
 .profile-image {
   background-image: url(profile-backer.JPG);
   background-position: center center;
-  background-size: 100%;
+  background-size: 100% 121%;
   background-repeat: no-repeat;
-  height: 79.4vh;
+  height: 94.6vh;
+  margin-top: 5.7vh;
   display: flex;
   justify-content: flex-end;
   object-fit: cover;
@@ -59,18 +60,22 @@
   border-radius: 50%;
   margin: 0 5px;
   cursor: pointer;
+  background-color: rgb(255,241,188);
+  border: black;
+}
+
+.newblock button:focus {
+  background-color: rgb(96, 89, 67);
 }
 
 .show {
   display: flex;
   justify-content: center;
-  opacity: 100;
 }
 
 .nosho {
+  display: none;
   justify-content: center;
-  opacity: 0;
-  transition: all 1s ease-in-out;
 }
 
 #config-container {

@@ -9,11 +9,14 @@ class MyProjects extends React.Component {
 
   render() {
     return e('div', {id: 'config-container'},
-      e('div', {id: 'site-one', className: 'nosho'}, ''),
-      e('div', {id: 'site-two', className: 'show'}, ''),
-      e('div', {id: 'site-three', className: 'nosho'}, ''),
-      e('div', {id: "button-container"}, 
-        e('button', {type: 'submit', className: 'selector site1'}, ''),
+    e('a', {href: "https://news-bloc.herokuapp.com/", id: 'site-one', className: 'nosho', target: "_blank"}, 
+      e('div', {}, '')),
+    e('a', {href: "https://tiny-garden.herokuapp.com/", id: 'site-two', className: 'show', target: "_blank"},
+      e('div', {}, '')),
+    e('a', {href: "https://github.com/TimothyMartinez", id: 'site-three', className: 'nosho', target: "_blank"}, 
+      e('div', {}, '')),
+    e('div', {id: "button-container"}, 
+        e('button', {type: 'submit', className: 'selector site1'}, ''), 
         e('button', {type: 'submit', className: 'selector site2'}, ''),
         e('button', {type: 'submit', className: 'selector site3'}, ''),
       )
