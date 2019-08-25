@@ -3,11 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node src/index.js",
-    "build": "webpack",
-    "serve": "browser-sync start --server --files --port $PORT \"dist/css/*.css, dist/js/*.js, **/*.html, !node_modules/**/*.html\"",
-    "heroku-postbuild": "echo Skip build on Heroku"
+    "start:dev": "webpack-dev-server"
   },
   "repository": {
     "type": "git",
@@ -20,7 +16,12 @@
   },
   "homepage": "https://github.com/TimothyMartinez/my_page#readme",
   "heroku-run-build-script": true,
-  "dependencies": {},
-  "devDependencies": {},
-  "description": ""
+  "dependencies": {
+    "webpack": "^4.39.2"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.3.7",
+    "webpack-dev-server": "^3.8.0"
+  },
+  "description": "Hello visitors."
 }
