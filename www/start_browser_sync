@@ -1,6 +1,0 @@
-browser-sync \
-	start \
-	--server \
-	--port 4000 \
-	--files "**/*.*" \
-	--no-ui
