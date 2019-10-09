@@ -1554,7 +1554,12 @@ input, select, textarea {
 		.image img {
 			display: block;
 			width: 100%;
-		}
+    }
+    
+    .hverexpand:hover {
+      transition: 1s ease-in-out;
+      transform: scale(1.03)
+    }
 
 		.image.fit {
 			display: block;
